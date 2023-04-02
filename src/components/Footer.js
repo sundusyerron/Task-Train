@@ -19,7 +19,6 @@ const Footer = () => {
 
   return (
     <FooterContainer>
-      <p>&copy; {currentYear} Hilary Kariuki. All rights reserved.</p>
     </FooterContainer>
   );
 };
