@@ -5,7 +5,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #00003B;
+  background-color: red;
   height: 80px;
   padding: 0 20px;
   position: fixed;
@@ -24,6 +24,8 @@ const Avatar = styled.img`
   height: 50px;
   border-radius: 50%;
 `;
+
+
 
 const Navbar = ({ user }) => {
   const renderAvatar = () => {
